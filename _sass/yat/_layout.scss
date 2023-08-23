@@ -587,7 +587,7 @@ html {
     & > *:first-child {
       @include center-image;
       transition: 0.1s all ease-in-out;
-      opacity: .2;
+      opacity: .4;
     }
 
     & > video {
@@ -615,7 +615,7 @@ html {
       margin: 0;
 
       > :nth-child(1) {
-        @include relative-font-size(3.9);
+        @include relative-font-size(3.5);
         letter-spacing: -1px;
         margin-bottom: 0.1em;
         font-weight: normal;

@@ -49,13 +49,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "adamconrad" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
-
+#favicon: "assets/images/bonsai.avif" # the favicon for your site
+favicon: "assets/images/bonsai_copy.jpg" # the favicon for your site
+  # artist: eric stephen brenner
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
   date_format: "%b %d, %Y"
 
+greeting: >-
+  Hi, I'm {author}
 # If you want more debug log, you can set true
 # debug: false
 
@@ -182,6 +185,15 @@ banner:
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
+smallbanner:
+#   video: null             # Video banner source
+#   loop: true              # Video loop
+#   volume: 0               # Video volume (100% is 1.0)
+#   start_at: 0             # Video start time
+  image: "assets/images/banners/sesshu.jpg"             # Image banner source
+#   opacity: 1.0            # Banner opacity (100% is 1.0)
+#   background: "rgba(0, 0, 0, 0.8)"  # Banner background (Could be a image)
+  height: ""         # Banner default height
 # Excerpt size setting
 # excerpt_size: 350
 
